@@ -4,6 +4,7 @@ require('dotenv').config()
 
 const app = express();
 const PORT = 8000;
+const key = '7613b48e-587a-4c82-a591-ca899bb73976';
 
 app.use(morgan('dev'));
 app.use(validateBearerToken);
